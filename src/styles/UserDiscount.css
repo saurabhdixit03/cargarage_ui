@@ -1,0 +1,106 @@
+/* UserDiscount.css */
+
+/* General Styles for Container */
+.user-discounts-container {
+    background-color: #121212;
+    min-height: 100vh;
+  }
+  
+  /* Loading Text */
+  .loading-text {
+    text-align: center;
+    color: white;
+  }
+  
+  /* Heading */
+  .user-discounts-heading {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Discount Card Styles */
+  .discount-card {
+    background-color: #1e1e1e; /* slightly lighter than page for contrast */
+    color: #e0e0e0;
+    border-radius: 12px;
+    border: 1px solid #2e2e2e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    text-align: left; /* Align text to left */
+    padding: 16px;
+  }
+  
+  .discount-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  /* Card Text */
+  .card-text {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-bottom: 8px;
+  }
+  
+  /* Discount Badge */
+  .badge {
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 5px;
+  }
+  
+  .badge.badge-warning {
+    background-color: #d5bb35;
+    color: #000;
+  }
+  
+  .badge.badge-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Footer Button */
+  .card-footer {
+    padding-top: 10px;
+  }
+  
+  .card-footer .btn-outline-primary {
+    background-color: #6f42c1; /* Filled purple */
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .card-footer .btn-outline-primary:hover {
+    background-color: #6b21a8;
+    color: white;
+  }
+  
+  /* Empty State Message */
+  .no-discounts-message {
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .col-lg-4 {
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,49 @@
+/* src/styles/global.css */
+
+/* RESET (Optional but helps a lot) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply to body/html */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #f5f7fa;
+  color: #1c1c1e;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Button Normalize */
+button, .btn {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Headings Consistency */
+h1, h2, h3, h4, h5 {
+  color: #1c1c1e;
+  font-weight: 600;
+}
+
+/* Toastify Override (optional) */
+.Toastify__toast {
+  border-radius: 12px;
+}
+
+/* Add your global utility classes below */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,60 @@
+.appointment-booking-wrapper {
+  background: #f7f9fc;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+
+.custom-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  padding: 24px;
+  background-color: #ffffff;
+}
+
+.scroll-box {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 8px;
+}
+
+.horizontal-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: #c4c4c4 transparent;
+  }
+  .horizontal-scroll::-webkit-scrollbar {
+    height: 6px;
+  }
+  .horizontal-scroll::-webkit-scrollbar-thumb {
+    background-color: #c4c4c4;
+    border-radius: 10px;
+  }
+  
+  .selected-car {
+    box-shadow: 0 0 0 2px #6c63ff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
